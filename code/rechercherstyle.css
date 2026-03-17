@@ -1,0 +1,176 @@
+body{
+  background-color: #516395d7;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  text-align: start;
+  background-color:  #516395;
+  margin-bottom: 5%;
+}
+
+#pbanner{
+  margin: 0.1%;
+  margin-left: 1%;
+}
+
+#minari{
+  margin-left: 0.1%;
+}
+
+button {
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0.189);
+}
+
+button:hover{
+  border-radius: 50px;
+  background-color: rgba(128, 128, 128, 0.153);
+  color: black;
+}
+
+.accueil{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  top: 10%;
+  font-size: x-large;
+}
+
+.recherche{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  top: 20%;
+  font-size: x-large;
+}
+
+.mp{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  top: 30%;
+  font-size: x-large;
+}
+
+.profil{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  top: 40%;
+  font-size: x-large;
+}
+
+.publier{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  font-size: x-large;
+}
+
+.da{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  left: 0;
+  top: 60%;
+  font-size: x-large;
+}
+
+.ps{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  left: 0;
+  top: 70%;
+  font-size: x-large;
+
+}
+
+.deconnexion{
+  position: fixed;
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+  bottom: 0;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+}
+
+form input{
+  padding: 2%;
+  font-size: large;
+  border-radius: 50px;
+  margin: 0.3%;
+  width: 45%;
+  z-index: 100;
+}
+
+form select{
+  top:3.1%;
+  right: 56.5%;
+  height: 82px;
+  width: 10%;
+  font-size: x-large;
+  text-align: center;
+  background-color: rgb(104, 119, 125);
+}
+
+form input[type='submit']{
+  border: 0;
+  background-color: dodgerblue;
+  z-index: 100;
+  width: 5%;
+}
+
+.pdp{
+  width: 90px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.profilimage{
+  display: flex;
+  background-color: white;
+  width: 35%;
+  padding: 1%;
+  margin-top: 1%;
+  border-radius: 30px;
+  top: 20%;
+  z-index: 200;
+  margin-left: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.voirprofil{
+  width: 30%;
+  height: 100%;
+}

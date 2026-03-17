@@ -1,0 +1,137 @@
+body{
+  background-color: #516395d7;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  text-align: start;
+  background-color:  #516395;
+  margin-bottom: 5%;
+}
+
+#pbanner{
+  margin: 0.1%;
+  margin-left: 1%;
+}
+
+#minari{
+  margin-left: 0.1%;
+}
+
+button {
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0.189);
+}
+
+button:hover{
+  border-radius: 50px;
+  background-color: rgba(128, 128, 128, 0.153);
+  color: black;
+}
+
+.accueil{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  top: 10%;
+  font-size: x-large;
+}
+
+.recherche{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  top: 20%;
+  font-size: x-large;
+}
+
+.mp{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  top: 30%;
+  font-size: x-large;
+}
+
+.profil{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  top: 40%;
+  font-size: x-large;
+}
+
+.publier{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  font-size: x-large;
+}
+
+.da{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  left: 0;
+  top: 60%;
+  font-size: x-large;
+}
+
+.ps{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  left: 0;
+  top: 70%;
+  font-size: x-large;
+
+}
+
+.deconnexion{
+  position: fixed;
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+  bottom: 0;
+}
+
+.post{
+  background-color: hsla(0, 0%, 100%, 0.679);
+  padding: 2%;
+  width: 60%;
+  margin-left: 30%;
+  border-top: 3px solid #7b8bb9;
+  border-left: 5px solid #7b8bb9;
+  border-right: 5px solid #7b8bb9;
+  border-bottom: 3px solid #7b8bb9;
+}
+
+.userpdp{
+  width: 100px;
+  border-radius: 50%;
+  bottom: 0;
+}
+

@@ -1,0 +1,174 @@
+/*CSS pour l'index*/
+section{
+  display: flex;
+}
+  
+body{
+  background-color: #516395d7;
+  margin: 0;
+  padding: 0;
+}
+  
+header{
+  text-align: start;
+  background-color:  #516395;
+  margin-bottom: 5%;
+}
+  
+#pbanner{
+  margin: 0.1%;
+  margin-left: 1%;
+}
+  
+#minari{
+  margin-left: 0.1%;
+}
+  
+button {
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0.189);
+}
+  
+button:hover{
+  border-radius: 50px;
+  background-color: rgba(128, 128, 128, 0.153);
+  color: black;
+}
+  
+.accueil{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  top: 10%;
+  font-size: x-large;
+}
+  
+.recherche{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  top: 20%;
+  font-size: x-large;
+}
+  
+.mp{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  top: 30%;
+  font-size: x-large;
+}
+  
+.profil{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  top: 40%;
+  font-size: x-large;
+}
+  
+.publier{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  font-size: x-large;
+}
+  
+.da{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  left: 0;
+  top: 60%;
+  font-size: x-large;
+}
+  
+.ps{
+  background-color: #596b9d;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  position: fixed;
+  left: 0;
+  top: 70%;
+  font-size: x-large;
+}
+  
+.deconnexion{
+  position: fixed;
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+  bottom: 0;
+  font-weight: none;
+}
+
+    
+form input[type='text']{
+  position: relative;
+  left: 100%;
+  width: 50%;
+  padding-bottom: 50%;
+  padding-right: 80%;
+  padding-top: 1%;
+  padding-left: 1%;
+  margin: 7px 0;
+  font-size: large;
+  outline: 0;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.133);
+  border: none;
+}
+
+
+form input[type='file']{
+  width: 60%;
+  padding: 10px;
+  margin-left: 100%;
+  cursor: pointer;
+}
+    
+ /*bouton poster*/
+form input[type='submit']{
+  cursor: pointer;
+  border: 0;
+  width:30%;
+  background-color: dodgerblue;
+  color: white;
+  padding: 1%;
+  margin-top: 20px;
+  margin-left: 100%;
+}
+
+h1{
+  text-align: center;
+}
+
+form label{
+  position: absolute;
+}
+
+form label input[type='checkbox']{
+    margin-top: 20px;
+    margin-left: 100%;
+}

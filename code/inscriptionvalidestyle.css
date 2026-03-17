@@ -1,0 +1,45 @@
+body{
+    background-color: #516395;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+section{
+    background-color: hsla(0, 0%, 100%, 0.679);
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+h1{
+    font-size: 275%;
+    text-align: center;
+}
+
+p{
+    margin: 0%;
+    font-size: 150%;
+}
+
+header{
+    text-align: start;
+    background-color:hsla(0, 0%, 100%, 0.44);
+}
+
+#pbanner{
+    margin: 0.1%;
+    margin-left: 1%;
+
+}
+
+#minari{
+    margin-left: 0.1%;
+}
+
+#pingouin{
+    margin: 3%;
+}

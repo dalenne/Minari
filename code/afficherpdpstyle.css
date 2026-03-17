@@ -1,0 +1,9 @@
+img{
+    display: flex;
+    margin: auto;
+    width: 930px;
+}
+
+*{
+    background-color: #516395;
+}

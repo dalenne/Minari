@@ -1,0 +1,78 @@
+/* à faire : bannière si possible avec le header+ couleur des form input quand c'est faux*/
+
+body{
+    background-color: #516395;
+    margin: 0%;
+    padding: 0%;
+}
+
+section{
+    position: absolute;
+    background-color: hsla(0, 0%, 100%, 0.679);
+    margin-top: 5%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 1%;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 7%;
+}
+
+form input{
+    padding: 7px 8px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    height: 50px;
+    font-size: large;
+    outline: 0;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+/*bouton s'inscrire*/
+form input[type='submit']{
+    border: 0;
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+form label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+/*bouton fichier*/
+form input[type='file']{
+    position: relative;
+    text-align: center;
+
+}
+
+header{
+    position: fixed;
+    text-align: start;
+    background-color:  hsla(0, 0%, 100%, 0.44);
+}
+
+#pbanner{
+    margin: 0.1%;
+    margin-left: 1%;
+
+}
+
+#minari{
+    margin-left: 0.1%;
+}
