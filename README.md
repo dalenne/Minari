@@ -2,8 +2,8 @@
 
 ## Contexte
 
-Ce projet a été réalisé dans le cadre de la matière "Internet et Outils" en L1.
-Le but du cours était de nous apprendre les bases du développement web avec HTML, CSS, PHP et SQL.
+Ce projet a été réalisé dans le cadre de la matière "Internet et Outils" en L1 en binôme de février à avril 2023.  
+Le but du cours était de nous apprendre les bases du développement web avec HTML, CSS, PHP et SQL.  
 
 ## Sujet
 
